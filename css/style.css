@@ -1,0 +1,80 @@
+html{
+    box-sizing: padding-box;         
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;              
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.container{
+    max-width: 1770px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+img {
+    max-width: 100%;                   
+}
+
+
+a{
+    text-decoration: none;            
+    color: inherit;
+}
+
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+p{
+    margin: 0;
+}
+
+
+.clearfix {
+    zoom: 1; 
+  }
+
+.clearfix:before, 
+.clearfix:after {
+  content: "";
+  display: table;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+ 
+/* Паттерн для скрытия элементов */
+.visuallyhidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    width: 1px !important;
+    height: 1px !important;
+    overflow: hidden;
+}
+
+
+@media (max-width: 1024px){
+    .container{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}

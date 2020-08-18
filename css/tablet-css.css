@@ -1,0 +1,209 @@
+@media (max-width: 1024px) {
+.container{
+    max-width: 924px;
+}
+
+.section-heading{
+    font-size: 48px;
+    line-height: 59px;
+}
+
+.header{
+    padding-bottom: 20px;
+}
+
+.nav-list{
+    padding-top: 16px;
+    font-size: 16px;
+    line-height: 20px;  
+}
+
+.nav-list-item:not(:first-child){
+    margin-left: 49px;
+}
+
+.nav-list-item:nth-child(:last-child){
+    margin-left: 32px;
+}
+
+
+.nav-list-item:nth-child(6){
+    margin-left: 72px;
+}
+
+.logo{
+    max-width: 150px;
+}
+
+.burger{
+    display: inline-block;
+}
+
+.order{
+    margin-bottom: 58px;
+    padding-left: 45px;
+    padding-top: 160px;
+    padding-bottom: 114px;
+}
+
+.order-heading{
+    font-size: 60px;
+    line-height: 73px;
+}
+
+.order-text{
+    margin-top: 12px;
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 658px;
+}
+
+.order-btn{
+    margin-top: 110px;
+}
+
+.about{
+    margin-bottom: 58px;
+}
+
+.work{
+    flex-direction: column;
+    margin-bottom: 58px;
+}
+
+.work-img-card{
+    min-height: 640px;
+}
+
+.work-card{
+    margin-left: 0;
+    margin-top: 40px;
+}
+
+.work-card:not(:last-child){
+    margin-bottom: 40px;
+}
+
+.how-work{
+    margin-bottom: 58px;
+}
+
+
+.steps{
+    margin-top: 36px;
+    margin-bottom: 44px;
+}
+
+.steps::before{
+    content: " ";
+    position: absolute;
+    top: -14px;
+    height: 3px;
+    width: 469px;
+    background: #CACACA;
+}
+
+.steps-item{
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.steps-item:hover::before, .steps-item:focus::before{
+    content: " ";
+    position: absolute;
+    top: -14px;
+    height: 3px;
+    width: 47px;
+    background: #FF9900;
+}
+
+.steps-item:not(:first-child){
+    margin-left: 76px; 
+}
+
+.steps-card{
+    background-image: url("../img/work-tablet.png");
+    background-size: 437px 689px ;
+    
+}
+
+.steps-card .card-descp{
+    margin-bottom: 23px;
+    min-width: 437px;
+}
+
+.steps-card .card-heading{
+    margin-bottom: 6px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.faq-list-item{
+    padding-bottom: 44px;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.faq-list-item:first-child{
+    padding-top: 48px;
+}
+
+.faq-list-item:nth-child(2n){
+    padding-top: 23px;
+    padding-bottom: 31px;
+}
+
+.faq-list-item-text{
+    padding-right: 27px;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.footer .container{
+    display: inherit;
+    position: relative;
+}
+
+.footer .logo {
+    max-width: 224px;
+}
+
+.footer-column{
+    margin-right: 70px;
+}
+
+.footer-text{
+    display: none;
+}
+
+.feedback{
+    float: left;
+    margin-right: 73px;
+    margin-bottom: 80px;
+}
+
+.footer-column, .footer-nav {
+    float: right;
+}
+
+.feedback-form-item{
+    max-width: 490px;
+}
+
+.submit-btn{
+    padding: 20px 38px;
+    margin-right: 12px;
+}
+
+.footer-nav{
+    margin-top: 0;
+    margin-right: 39px;
+    line-height: 50px;
+}
+
+.links-list{
+    position: absolute;
+    top: 490px;
+    left: 607px;
+}
+}
