@@ -1,5 +1,5 @@
 html{
-    box-sizing: padding-box;         
+    box-sizing: border-box;         
 }
 
 *,
@@ -10,7 +10,7 @@ html{
 
 body {
     background-color: #ffffff;
-    font-family: "Montserrat", Arial, sans-serif;
+    font-family: "Montserrat", "Arial", sans-serif;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
@@ -18,9 +18,9 @@ body {
 }
 
 .container{
-    max-width: 1770px;
-    margin-left: 75px;
-    margin-right: 75px;
+    max-width: 1800px;
+    margin: auto;
+    padding: 0 15px;
 }
 
 img {
@@ -42,6 +42,10 @@ ul{
 
 p{
     margin: 0;
+}
+
+button{
+    cursor: pointer;
 }
 
 
@@ -74,7 +78,7 @@ p{
 
 @media (max-width: 1024px){
     .container{
-        margin-left: 50px;
-        margin-right: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 }

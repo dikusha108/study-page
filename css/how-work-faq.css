@@ -1,0 +1,123 @@
+.how-work{
+    margin-bottom: 85px;
+    display: flex;
+    flex-direction: column;
+}
+
+.steps{
+    margin-top: 55px;
+    margin-bottom: 53px;
+    display: flex;
+    position: relative;
+    color: #333333;
+}
+
+.steps-item:not(:first-child){
+    margin-left: 80px; 
+}
+
+.steps-item-link{
+    background-color: #fff;
+    border: 0;
+    transition-duration: 150ms;
+}
+
+.steps-item-link:hover, .steps-item-link:focus{
+    color: #FF9900;
+}
+
+
+.steps-card{
+    background-image: url("../img/work.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 49% 100%;
+}
+
+.steps-card-content{
+    max-width: 46%;
+}
+
+.steps-card .card-descp{
+    margin-bottom: 58px;
+}
+
+.orange-btn{
+    padding: 20px 38px;
+    margin-right: 27px;
+}
+
+.gray-btn{
+    padding: 20px 38px;
+    font-weight: normal;
+    border: 1px solid #333333;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+.gray-btn:hover, .gray-btn:focus{
+    color: #FFFFFF;
+    background: #333333;
+}
+
+.faq{
+    margin-bottom: 88px;
+}
+
+.faq-list{
+    margin-top: 37px;
+}
+
+.faq-list-item{
+    padding-top: 32px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #CACACA;
+}
+
+.faq-list-item:nth-child(1){
+    border-top: 1px solid #CACACA;
+}
+
+.faq-list-item:hover, .faq-list-item:focus{
+    color: #FF9900;
+}
+
+.faq-more-btn{
+    padding-right: 0px;
+    padding-left: 4px;
+    display: flex;
+    min-height: 50px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 0;
+    transition-duration: 150ms;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: left;
+}
+
+.faq-more-btn::after{
+    position: relative;
+    margin-left: auto;
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #ECECEC;
+    border-radius: 25px;
+    
+}
+
+
+.faq-more-btn:hover, .faq-more-btn:focus{
+    color: #FF9900;
+    outline: none;
+}
+
+.faq-more-btn:hover::after{
+    background: #D2D2D2;
+}
+
+
+

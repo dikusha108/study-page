@@ -1,0 +1,136 @@
+.footer{
+    background-color: #222222;
+    color: #CACACA;
+}
+
+.footer .container {
+    padding-top: 48px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.footer-text{
+    margin-top: 5px;
+    max-width: 363px;
+    line-height: 33px;
+}
+
+.links-list{
+    margin-top: 44px;
+    display: flex;
+    align-self: end;
+}
+
+.links-list-item{
+    margin-right: 25px;
+}
+
+.newtwork-link{
+    display: block;
+    height: 60px;
+    width: 60px;
+    background-repeat: no-repeat;
+}
+
+.fb{
+    background-image: url("../img/fb.svg");
+}
+
+.vk {
+    background-image: url("../img/vk.svg");
+}
+
+.inst{
+    background-image: url("../img/instagram.svg");
+}
+
+.feedback{
+    margin-right: 100px;
+}
+
+
+.feedback .section-heading{
+    margin-top: 10px;
+    margin-bottom: 22px;
+    color: #CACACA;
+}
+
+.feedback-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-form-item{
+    padding: 21px 24px;
+    margin-bottom: 25px;
+    max-width: 570px;
+    background: #414141;
+    border: 0;
+}
+
+.footer-nav{
+    margin-top: 140px;
+    margin-right: 12px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 37px;
+}
+
+.submit{
+    display: flex;
+}
+
+.submit-btn{
+    margin-top: 5px;
+    margin-right: 18px;
+    padding: 20px 50px;
+    max-width: 269px;
+    border: 0;
+}
+
+.privacy{
+    position: relative;
+}
+
+.privacy-check{
+    z-index: -1;
+    opacity: 0;
+}
+
+.privacy-label{
+    cursor: pointer;
+}
+
+.privacy-label::before{
+    content: '';
+    margin-right: 8px;
+    display: inline-block;
+    border: 1px solid #CACACA;
+    width: 14px;
+    height: 14px;
+}
+
+.privacy:checked+.check{
+    display: inline-block;
+    position: absolute;
+    top: 23px;
+    left: 5px;
+    width: 5px;
+    height: 8px;
+    border-right: 2px solid #97EE3F;
+    border-bottom: 2px solid #97EE3F;
+    box-sizing: border-box;
+    transform: rotate(45deg);
+}
+
+.links-list-repeat, .logo-repeat{
+    display: none;
+}

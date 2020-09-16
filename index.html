@@ -8,15 +8,22 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/tablet-css.css">
-    <link rel="preload" href="fonts/montserrat-v14-latin_cyrillic-regular.woff2" as="font">   <!-- предзагрузка: файл из href будет загружаться на более ранних этапах загрузки сайта -->
-    <link rel="preload" href="fonts/montserrat-v14-latin_cyrillic-800.woff2" as="font">
+    <link rel="stylesheet" href="css/order-about-work.css">
+    <link rel="stylesheet" href="css/how-work-faq.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/laptop.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="preload" href="fonts/montserrat-regular.woff2" as="font">   
+    <link rel="preload" href="fonts/montserrat-800.woff2" as="font">
+    <link rel="preload" href="fonts/montserrat-700.woff2" as="font">
+    <link rel="preload" href="fonts/montserrat-600.woff2" as="font">
 </head>
 <body>
     <div class="header-block">
         <div class="container">
             <header class="header">
-                <a><img src="img/logo.svg" alt="Евклид - Проектные системы" class="logo"></a>
+                <a><img src="img/logo.png" alt="Евклид - Проектные системы" class="logo"></a>
                 <nav class="main-nav">
                     <ul class="nav-list">
                         <li class="nav-list-item"><a href="#" class="nav-list-link">О нас</a></li>
@@ -25,43 +32,52 @@
                         <li class="nav-list-item"><a href="#" class="nav-list-link">Отзывы</a></li>
                         <li class="nav-list-item"><a href="#" class="nav-list-link">Контакты</a></li>
                     </ul>
-                    <button class="search nav-list-item" type="button" area-label="Поиск по сайту"></button>
-                    <button class="burger nav-list-item" type="button" area-label="Меню"></button>
+                    <button class="search nav-list-item" type="button" aria-label="Поиск по сайту"></button>
+                    <button class="burger nav-list-item" type="button" aria-label="Меню-бургер"></button>
                 </nav>
             </header>
         </div>
     </div>
 
     <main class="main">
-        <div class="container">
-            <section class="order">
-                <h2 class="order-heading">Проектные решения любой сложности</h2>
-                <p class="order-text">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов</p>
-                <button class="order-btn btn">Заказать расчёт</button>
-            </section>
+            <h1 class="visuallyhidden">Евклид - Проектные системы</h1>
+            <div class="container">
+                <section class="order">
+                        <h2 class="order-heading">Проектные решения любой сложности</h2>
+                        <p class="order-text">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день остаются уделом проектантов</p>
+                        <button class="order-btn btn" type="button">Заказать расчёт</button>
+                        <ul class="dots">
+                            <li class="dot dot-active"></li>
+                            <li class="dot"></li>
+                            <li class="dot"></li>
+                        </ul>
+                </section>
+            </div>
 
             <section class="about">
-                <h2 class="section-heading">О нас</h2>
-                <p class="section-text">Также как перспективное планирование создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности. А также диаграммы связей могут быть описаны максимально подробно. Мы вынуждены отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и внешне зависимых концептуальных решений! Следует отметить, что высококачественный прототип будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться от того, что высококачественный прототип будущего проекта способствует повышению качества экспериментов.</p>
+                <div class="container">
+                    <h2 class="section-heading about-heading">О нас</h2>
+                    <p class="section-text">Также как перспективное планирование создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности. А также диаграммы связей могут быть описаны максимально подробно. Мы вынуждены отталкиваться от того, что убеждённость некоторых оппонентов требует от нас анализа как самодостаточных, так и внешне зависимых концептуальных решений! Следует отметить, что высококачественный прототип будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в отношении поставленных задач. Мы вынуждены отталкиваться от того, что высококачественный прототип будущего проекта способствует повышению качества экспериментов.</p>
 
-                <div class="work">
-                    <div class="work-img-card">
-                        <div class="work-img-card-content">
-                            <p class="work-img-card-descp">Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и реализации новых принципов.</p>
-                            <a href="#" class="work-more">Подробнее</a>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="work-card cub">
-                            <div class="work-card-item ">
-                                <p class="card-heading">Консультация с широким активом</p>
-                                <p class="card-descp">А также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для как самодостаточных, так и внешне зависимых концептуальных решений.</p>
+                    <div class="work">
+                        <div class="work-img-card">
+                            <div class="work-img-card-content">
+                                <p class="work-img-card-descp">Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и реализации новых принципов.</p>
+                                <a href="#" class="work-more">Подробнее</a>
                             </div>
                         </div>
-                        <div class="work-card setting">
-                            <div class="work-card-item ">
-                                <p class="card-heading">В своём стремлении повысить </p>
-                                <p class="card-descp">Качество жизни, они забывают, что сплочённость команды профессионалов представляет собой интересный эксперимент проверки прогресса профессионального сообщества. </p>
+                        <div>
+                            <div class="work-card cub">
+                                <div class="work-card-item ">
+                                    <p class="card-heading">Консультация с широким активом</p>
+                                    <p class="card-descp">А также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для как самодостаточных, так и внешне зависимых концептуальных решений.</p>
+                                </div>
+                            </div>
+                            <div class="work-card setting">
+                                <div class="work-card-item ">
+                                    <p class="card-heading">В своём стремлении повысить </p>
+                                    <p class="card-descp">Качество жизни, они забывают, что сплочённость команды профессионалов представляет собой интересный эксперимент проверки прогресса профессионального сообщества. </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -69,6 +85,7 @@
             </section>
 
         <section class="how-work">
+            <div class="container">
                 <h2 class="section-heading">Как мы работаем</h2>
                 <ul class="steps">
                     <li class="steps-item"><button type="button" class="steps-item-link">1 шаг</button></li>
@@ -84,24 +101,26 @@
                         <a href="#" class="gray-btn btn">Договор</a>
                     </div>
                 </div>
+            </div>
         </section>
 
         <section class="faq">
+            <div class="container">
                 <h2 class="section-heading">Часто задаваемые вопросы</h2>
                 <ul class="faq-list">
                     <li class="faq-list-item">
-                         <button class="faq-more-btn faq-list-item-text" type="button">Из чего формируется конечная стоимость проекта?</button></li>
+                         <button class="faq-more-btn" type="button">Из чего формируется конечная стоимость проекта?</button></li>
                     <li class="faq-list-item">
-                        <button class="faq-more-btn faq-list-item-text" type="button">У меня есть свой проект. Сможем ли мы его доработать / реализовать?</button></li>
+                        <button class="faq-more-btn" type="button">У меня есть свой проект. Сможем ли мы его доработать / реализовать?</button></li>
                     <li class="faq-list-item">
-                         <button class="faq-more-btn faq-list-item-text" type="button">Я выбираю между разными компаниями. В чём ваше отличие?</button></li>
+                         <button class="faq-more-btn" type="button">Я выбираю между разными компаниями. В чём ваше отличие?</button></li>
                     <li class="faq-list-item">
-                          <button class="faq-more-btn faq-list-item-text" type="button">Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?</button></li>
+                          <button class="faq-more-btn" type="button">Могу ли я делегировать вам работу / согласование с подрядчиком / организацией?</button></li>
                     <li class="faq-list-item">
-                         <button class="faq-more-btn faq-list-item-text" type="button">Могу ли я вернуть деньги на каком-либо из этапов работ?</button></li>
+                         <button class="faq-more-btn" type="button">Могу ли я вернуть деньги на каком-либо из этапов работ?</button></li>
                 </ul>
+            </div>
         </section>
-    </div>
     </main>
 
     <footer class="footer">
@@ -109,40 +128,52 @@
             <div class="footer-column">
                 <a href="#"><img src="img/footer-logo.png" alt="Евклид Логотип" class="logo"> </a>
                 <p class="footer-text">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: разбавленное изрядной долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким образом, консультация с широким активом обеспечивает широкому кругу (специалистов) участие в формировании стандартных подходов. </p>
+           
+                <ul class="links-list">
+                    <li class="links-list-item"><a href="#" class="newtwork-link fb" aria-label="Фейсбук"></a></li>
+                    <li class="links-list-item"><a href="#" class="newtwork-link vk" aria-label="Вконтакте"></a></li>
+                    <li class="links-list-item"><a href="#" class="newtwork-link inst" aria-label="Инстаграм"></a></li>
+                </ul>
             </div>
-            <ul class="links-list">
-                <li class="links-list-item"><a href="#" class="newtwork-link fb" aria-label="Фейсбук"></a></li>
-                <li class="links-list-item"><a href="#" class="newtwork-link vk" aria-label="Вконтакте"></a></li>
-                <li class="links-list-item"><a href="#" class="newtwork-link inst" aria-label="Инстаграм"></a></li>
-            </ul>
 
             <section class="feedback">
                 <h2 class="section-heading">Оставить заявку</h2>
                 <form action="https://jsonplaceholder.typicode.com/posts" class="feedback-form" method="POST">
                     <input required type="text" name="name" placeholder="Фамилия, имя и отчество*" class="feedback-form-item">
-                    <input required type="tel" name="mail" placeholder="E-mail*" class="feedback-form-item">
+                    <input required type="email" name="mail" placeholder="E-mail*" class="feedback-form-item">
                     <textarea name="message" cols="30" rows="6" placeholder="Сообщение..." class="feedback-form-item message"></textarea>
                     <div class="submit">
                         <button type="submit" class="btn submit-btn">Отправить данные</button>
-                        <input type="checkbox" name="agree" id="privacy" class="privacy" checked /> 
-                        <label for="privacy" class="privacy-label">Согласен на обработу данных</label> 
+                        <label class="privacy">
+                            <input type="checkbox" name="agree" id="privacy" class="privacy privacy-check" checked required/> 
+                            <div class="check"></div>
+                            <p class="privacy-label">Согласен на обработу данных</p>
+                        </label> 
                     </div>
                 </form>
             </section>
 
             <div class="clearfix">
+                <a href="#"><img src="img/footer-logo.png" alt="Евклид Логотип" class="logo-repeat"> </a>
                 <ul class="footer-nav">
                     <li class="footer-nav-item"><a href="#" class="footer-nav-item-lnk">О нас</a></li>
                     <li class="footer-nav-item"><a href="#" class="footer-nav-item-lnk">Проекты</a></li>
                     <li class="footer-nav-item"><a href="#" class="footer-nav-item-lnk">Отзывы</a></li>
                     <li class="footer-nav-item"><a href="#" class="footer-nav-item-lnk">Договор оферты</a></li>
                     <li class="footer-nav-item"><a href="#" class="footer-nav-item-lnk">Договор подряда</a></li>
-                    <li class="footer-nav-item"><a href="#" class="footer-nav-item-lnk">Конфиденциальность</a></li>
+                    <li class="footer-nav-item"><a href="#" class="footer-nav-item-lnk">Политика конфиденциальности</a></li>
                     <li class="footer-nav-item"><a href="#" class="footer-nav-item-lnk">Партнёрское соглашение</a></li>
+                </ul>
+                <ul class="links-list-repeat">
+                    <li class="links-list-item"><a href="#" class="newtwork-link fb" aria-label="Фейсбук"></a></li>
+                    <li class="links-list-item"><a href="#" class="newtwork-link vk" aria-label="Вконтакте"></a></li>
+                    <li class="links-list-item"><a href="#" class="newtwork-link inst" aria-label="Инстаграм"></a></li>
                 </ul>
             </div>
         </div>
     </footer>
+
+
 </body>
 </html>
 

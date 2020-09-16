@@ -1,0 +1,305 @@
+@media(max-width:425px){
+    .container{
+        max-width: 320px;
+        margin: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .section-heading, .faq .section-heading{
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .section-text{
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .btn{
+        padding: 12px 28px;
+        font-size: 12px;
+        line-height: 15px;
+        max-width: 162px;
+    }
+
+    .header-block{
+        width: 100%;
+    }
+
+    .header{
+        flex-direction: row;
+        padding-top: 7px;
+        padding-bottom: 3px;
+    }
+
+    .logo{
+        max-width: 97px;
+        padding: 0;
+    }
+
+    .main-nav{
+        padding-top: 0;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    .search{
+        display: none;
+    }
+
+    .burger{
+        width: 25px;
+        margin-top: 0;
+    }
+
+    .burger::before {
+        top: -7px;
+    }
+
+    .burger::after{
+        top: 7px;
+    }
+
+    .burger::before, .burger::after{
+        width: 25px;
+    }
+
+    .dots{
+        display: none;
+    }
+
+    .order{
+        padding: 32px 21px 40px;
+        margin-bottom: 39px;
+        background-image: url("../img/photo-of-balconies-mobile.jpg");
+    }
+
+    .order-heading{
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .order-text{
+        margin-top: 6px;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .order-btn{
+        margin-left: 43px;
+        margin-top: 38px;
+    }
+
+    .about, .how-work, .faq{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .about-heading{
+        margin-bottom: 3px;
+    }
+
+    .about .section-text {
+        margin-top: 0; 
+        margin-bottom: 10px;
+    }
+
+    .work-img-card{
+        padding-top: 210px;
+        background-image: url("../img/worker-mobile.jpg");
+        background-size: 100%;
+    }
+
+    .work-img-card-content{
+        padding: 0;
+        backdrop-filter: none;
+        flex-direction: column;
+    }
+
+    .work-img-card-descp{
+        margin-bottom: 10px;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 28px;
+        color: #333333;
+    }
+
+    .work-more{
+        margin-left: 0;
+        padding: 11px 35px;
+        max-width: 162px;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FF9900;
+    }
+
+    .work-card{
+        margin-top: 34px;
+        background-size: 70px auto;
+        background-position-y: 0;
+        background-position-x: 0;
+        border: 0;
+    }
+
+    .work-card:not(:last-child){
+        margin-bottom: 20px;
+    }
+
+    .work-card-item{
+        padding: 68px 0 0;
+    }
+
+    .card-heading{
+        margin-bottom: 7px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .card-descp{
+        font-size: 14px;
+        line-height: 27.5px;
+    }
+
+    .setting{
+        margin-top: 17px;
+    }
+
+    .setting .work-card-item {
+        padding-top: 70px;
+    }
+
+    .about{
+        margin-bottom: 50px;
+    }
+
+    .steps{
+        margin-top: 12px;
+        margin-bottom: 17px;
+    }
+
+    .steps::before{
+        height: 2px;
+        top: -7px;
+    }
+
+    .steps-item{
+        font-size: 14px;
+    }
+
+    .steps-item:not(:first-child) {
+        margin-left: 44px;
+    }
+
+    .steps-item-link{
+        padding: 0;
+    }
+
+    .steps-card{
+        background-size: auto 160px;
+    }
+
+    .steps-card-content {
+        padding-top: 164px;
+    }
+
+    .steps-card-content .card-heading{
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 0;
+    }
+
+    .orange-btn {
+        margin-right: 10px;
+        padding: 12px 45px;
+        max-width: 162px;
+    }
+
+    .gray-btn {
+        padding: 12px 28px;
+        max-width: 118px;
+    }
+
+    .faq, .footer {
+        padding: 0;
+    }
+
+    .faq .section-heading{
+        margin-bottom: 13px;
+    }
+
+    .faq-list{
+        margin-top: 0;
+    }
+
+    .faq-list-item {
+        padding: 20px 0 !important;
+    }
+
+    .faq-more-btn{
+        background-size: 30px auto;
+    }
+
+    .faq-btn-text{
+        max-width: 223px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 25px;
+    }
+
+    .feedback{
+        margin-right: 0;
+    }
+
+    .feedback-form-item {
+        max-width: 290px;
+        max-height: 150px;
+    }
+
+    .submit {
+        flex-direction: column;
+    }
+
+    .submit-btn {
+        margin: auto;
+        margin-bottom: 3px;
+        max-width: 180px;
+    }
+
+    .privacy-label{
+        margin: auto;
+        margin-bottom: 60px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #595959;
+    }
+
+    .logo-repeat, .footer-nav{
+        display: none;
+    }
+
+    .footer .clearfix{
+        margin: auto;
+    }
+
+    .links-list-item {
+        margin-right: 15px;
+    }
+
+    .newtwork-link {
+        height: 35px;
+        width: 35px;
+        background-size: 35px;
+    }
+}

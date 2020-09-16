@@ -1,0 +1,100 @@
+@media (max-width: 768px){
+    .container{
+        max-width: 768px;
+        padding: 0;
+    }
+
+    .header{
+        flex-direction: column;
+    }
+
+    .logo{
+        padding: 11px;
+    }
+
+    .main-nav{
+        padding-top: 19px;
+    }
+
+    .nav-list-item{
+        margin-right: 48px;
+    } 
+
+    .search{
+        margin-right: 32px;
+        margin-left: 13px;
+    }
+
+    .burger{
+        margin-right: 0;
+    }
+
+    .order{
+        padding: 130px 2px 114px 49px;
+    }
+
+    .dots {
+        display: none;
+    }
+
+    .about{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .work{
+        flex-direction: column;
+    }
+
+    .work-img-card-content{
+        padding: 20px 28px;
+    }
+
+    .work-card{
+        background-size: 140px auto;
+        background-position-x: 31px;
+    }
+
+    .work-card-item{
+        padding: 40px 34px 38px 178px;
+    }
+
+    .how-work{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .steps{
+        justify-content: space-between;
+    }
+
+    .steps::before{
+        width: 100%;
+    }
+
+    .steps-card{
+        background-image: url("../img/work-t.jpg");
+        background-size: auto;
+        background-position: 0 0;
+    }
+
+    .steps-card-content{
+        max-width: 100%;
+        padding-top: 322px;
+    }
+
+    .faq, .footer{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .faq .section-heading{
+        font-size: 46px;
+    }
+
+    .faq-btn-text{
+        max-width: 514px;
+    }
+
+    
+}

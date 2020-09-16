@@ -1,6 +1,6 @@
 @media (max-width: 1024px) {
 .container{
-    max-width: 924px;
+    max-width: 1024px;
 }
 
 .section-heading{
@@ -8,27 +8,31 @@
     line-height: 59px;
 }
 
+.section-text{
+    line-height: 32px;
+}
+
 .header{
     padding-bottom: 20px;
 }
 
+.main-nav{
+    padding-right: 0;
+    
+}
+
 .nav-list{
-    padding-top: 16px;
     font-size: 16px;
     line-height: 20px;  
 }
 
-.nav-list-item:not(:first-child){
-    margin-left: 49px;
-}
+.nav-list-item{
+    margin-right: 59px;
+} 
 
-.nav-list-item:nth-child(:last-child){
-    margin-left: 32px;
-}
-
-
-.nav-list-item:nth-child(6){
-    margin-left: 72px;
+.search{
+    margin-right: 34px;
+    margin-left: 18px;
 }
 
 .logo{
@@ -37,13 +41,14 @@
 
 .burger{
     display: inline-block;
+    margin-right: 0;
 }
 
 .order{
     margin-bottom: 58px;
     padding-left: 45px;
-    padding-top: 160px;
-    padding-bottom: 114px;
+    padding-top: 260px;
+    padding-bottom: 30px;
 }
 
 .order-heading{
@@ -62,35 +67,62 @@
     margin-top: 110px;
 }
 
+.dots {
+    display: flex;
+    margin-top: 69px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .about{
-    margin-bottom: 58px;
+    margin-bottom: 60px;
+}
+
+.about .section-text{
+    margin-bottom: 60px;
 }
 
 .work{
     flex-direction: column;
-    margin-bottom: 58px;
 }
 
 .work-img-card{
-    min-height: 640px;
+    max-height: 640px;
+    max-width: 924px;
+    background-size: cover;
+    padding-top: 477px;
+}
+
+.work-img-card-content{
+    padding: 38px 50px 38px 44px;
 }
 
 .work-card{
     margin-left: 0;
-    margin-top: 40px;
+    margin-top: 48px;
+    max-width: 924px;
+    background-position-x: 108px;
 }
 
 .work-card:not(:last-child){
     margin-bottom: 40px;
 }
 
+.work-card-item {
+    padding: 78px 80px 62px 364px ;
+}
+
+.setting .work-card-item{
+    padding-top: 62px;
+}
+
 .how-work{
     margin-bottom: 58px;
 }
 
-
 .steps{
-    margin-top: 36px;
+    margin-top: 32px;
     margin-bottom: 44px;
 }
 
@@ -123,13 +155,11 @@
 
 .steps-card{
     background-image: url("../img/work-tablet.png");
-    background-size: 437px 689px ;
     
 }
 
 .steps-card .card-descp{
     margin-bottom: 23px;
-    min-width: 437px;
 }
 
 .steps-card .card-heading{
@@ -138,38 +168,48 @@
     line-height: 32px;
 }
 
+.faq{
+    margin-bottom: 49px;
+}
+
 .faq-list-item{
     padding-bottom: 44px;
+    padding-top: 25px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.faq-list-item:nth-child(1){
+    padding-top: 40px;
+}
+
+
+.faq-list-item:nth-child(2n){
+    padding-top: 14px;
+}
+
+.faq-more-btn{
     font-size: 20px;
     line-height: 32px;
 }
 
-.faq-list-item:first-child{
-    padding-top: 48px;
-}
-
-.faq-list-item:nth-child(2n){
-    padding-top: 23px;
-    padding-bottom: 31px;
-}
-
-.faq-list-item-text{
-    padding-right: 27px;
+.faq-btn-text{
+    max-width: 750px;
     font-size: 20px;
     line-height: 32px;
 }
 
 .footer .container{
-    display: inherit;
-    position: relative;
-}
-
-.footer .logo {
-    max-width: 224px;
+    display: flex;
 }
 
 .footer-column{
-    margin-right: 70px;
+    display: none;
+}
+
+.logo-repeat {
+    display: block;
+    max-width: 224px;
 }
 
 .footer-text{
@@ -177,33 +217,33 @@
 }
 
 .feedback{
-    float: left;
     margin-right: 73px;
-    margin-bottom: 80px;
-}
-
-.footer-column, .footer-nav {
-    float: right;
 }
 
 .feedback-form-item{
-    max-width: 490px;
+    max-width: 534px;
 }
 
 .submit-btn{
     padding: 20px 38px;
     margin-right: 12px;
+    margin-top: 0;
 }
 
 .footer-nav{
     margin-top: 0;
-    margin-right: 39px;
+    margin-right: 0;
     line-height: 50px;
 }
 
 .links-list{
-    position: absolute;
-    top: 490px;
-    left: 607px;
+    display: none;
 }
+
+.links-list-repeat{
+    margin-top: 21px;
+    margin-right: 0;
+    display: flex;
+}
+
 }
